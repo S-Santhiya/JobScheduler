@@ -1,0 +1,6 @@
+type jobscheduler @model {
+  id: ID!
+  accountname: String!
+  accounttype: String!
+  accountnumber: String!
+}
