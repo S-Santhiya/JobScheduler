@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "jobscheduler5625cf1f": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
