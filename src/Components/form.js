@@ -1,5 +1,13 @@
 import React from "react"
 
+const save = () =>
+{
+ alert("Saved..");
+}
+const cancel = () =>
+{
+    alert("Cancel..");
+}
 function Form()
 {
     return(
@@ -9,8 +17,8 @@ function Form()
         <label> Account Number </label> <input type = "text" /> <br />
         <label> Ext Id </label> <input type = "text" /> <br />
         <label> Subscription Id </label> <input type = "text" /> <br />
-        <button> Save </button>
-        <button> Cancel </button>
+        <button onClick = {save}> Save </button>
+        <button onClick = {cancel}> Cancel </button>
        </form>
     )
 }
